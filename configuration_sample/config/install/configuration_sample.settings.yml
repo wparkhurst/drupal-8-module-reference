@@ -1,0 +1,4 @@
+api_key: ''
+list_id: ''
+success_msg: 'Your request has been processed!'
+failure_msg: 'Our system was unable to process your request.'

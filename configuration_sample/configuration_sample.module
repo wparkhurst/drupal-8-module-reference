@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Example code for setting a configuration settings form and storing settings in the database.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function configuration_settings_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.configuration_sample':
+
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides a sample configuration form that stores values in the database.') . '</p>';
+
+      return $output;
+
+    default:
+  }
+}

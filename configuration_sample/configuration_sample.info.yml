@@ -1,0 +1,5 @@
+name: Configuration Sample
+description: Provides a sample configuration form and stores settings in database.
+type: module
+package: Reference
+core: 8.x

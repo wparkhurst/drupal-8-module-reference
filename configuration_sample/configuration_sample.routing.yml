@@ -1,0 +1,9 @@
+configuration_sample.settings:
+  path: '/admin/config/services/configuration-sample'
+  defaults:
+    _title: 'Configuration Sample Settings'
+    _form: '\Drupal\configuration_sample\Form\ConfigurationSampleSettingsForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
